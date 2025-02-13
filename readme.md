@@ -26,14 +26,9 @@ This project involves creating a web forum where users can communicate with each
 1. Clone the repository to your local machine.
 2. Ensure you have Go and Docker installed.
 3. Navigate to the project root directory.
-4. Docker way
-   1. Run `docker build -t my-go-app .` to build the Docker image.
-   2. Run `docker run -d -p 4000:4000 --name my-go-app-container my-go-app` to run Docker image.
-   3. Run `docker stop my-go-app-container` to stop Docker image.
-   3. Run `docker rm my-go-app-container` to remove Docker image.
-5. Traditional way
+4. Traditional way
    1. `go run ./cmd/web`
-6. Access the forum at `http://localhost:4000` in your web browser.
+5. Access the forum at `http://localhost:4000` in your web browser.
 
 
 ## User to login
@@ -41,10 +36,6 @@ This project involves creating a web forum where users can communicate with each
 - login: admin
 - password: admin
 
-## Commit history 
-You can see on https://github.com/cowbuno/forum
-
 ## Authors 
-@anospanov
-@tsadvaka
+Temirlan Sadvakassov CSE2405
 
